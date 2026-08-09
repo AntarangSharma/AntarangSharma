@@ -14,7 +14,9 @@
 | [automated-data-catalog](https://github.com/AntarangSharma/automated-data-catalog) | Builds a browsable data catalog + lineage DAG from a dbt manifest, with AI-generated descriptions and PII detection |
 | [Self-Healing-Data-Pipeline](https://github.com/AntarangSharma/Self-Healing-Data-Pipeline) | LLM agent that diagnoses Airflow/dbt pipeline failures, drafts a minimal patch, and opens a PR — resolves incidents in seconds for under a cent |
 | [Schema-Drift-Detective-Auto-Migration-Agent](https://github.com/AntarangSharma/Schema-Drift-Detective-Auto-Migration-Agent) | Detects upstream schema drift and opens auto-migration PRs ([demo sandbox](https://github.com/AntarangSharma/drift-demo-sandbox)) |
+| [Ai-Powered-Data-Quality-Triangle-Agent](https://github.com/AntarangSharma/Ai-Powered-Data-Quality-Triangle-Agent) | DQ Triage Agent — walks column-level lineage upstream from a failed dbt test to the exact source rows that caused it (100% top-1 root-cause accuracy over a 45-trial benchmark) |
 | [Modular-Analytics-Warehouse](https://github.com/AntarangSharma/Modular-Analytics-Warehouse) | dbt + Snowflake medallion architecture (Bronze → Silver → Gold) with SCD Type 2 snapshots |
+| [End-to-End_Banking_datastack](https://github.com/AntarangSharma/End-to-End_Banking_datastack) | Real-time banking platform: Postgres → Debezium CDC → Kafka → MinIO → Snowflake → dbt, orchestrated with Airflow |
 
 ## 💻 Tech Stack
 
